@@ -1,0 +1,39 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+    width: 415px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    display: grid;
+    /* it’s taken out of the normal document flow */
+    position: absolute;
+    /* tells the browser to line up the left and top edge of the div with the center of the page horizontally and vertically */
+    top: 50%;
+    left: 50%;
+    /* This moves the div 50% to the left and up from its current position. That will tell the browser to put the center of the div in the center of the page. */
+    transform: translate(-50%, -50%);
+    /* overflow: hidden; */
+}
+img{
+    width:375px;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+.bold{
+    font-weight:bold;
+    font-size: xx-large;
+}
+.thick{
+    font-weight: normal;
+    color:hsl(220, 15%, 55%) ;
+    font-size: x-large;
+}
+
+.container-item{
+    text-align: center;
+}
